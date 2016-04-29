@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322237591CD4254D0072828E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322237581CD4254D0072828E /* AppDelegate.swift */; };
+		3222375B1CD4254D0072828E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222375A1CD4254D0072828E /* RootViewController.swift */; };
+		3222375D1CD4254D0072828E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222375C1CD4254D0072828E /* DataViewController.swift */; };
+		3222375F1CD4254D0072828E /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222375E1CD4254D0072828E /* ModelController.swift */; };
+		322237621CD4254D0072828E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322237601CD4254D0072828E /* Main.storyboard */; };
+		322237641CD4254D0072828E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322237631CD4254D0072828E /* Assets.xcassets */; };
+		322237671CD4254D0072828E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322237651CD4254D0072828E /* LaunchScreen.storyboard */; };
+		322237721CD4254D0072828E /* nint_prog_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322237711CD4254D0072828E /* nint_prog_1Tests.swift */; };
+		3222377D1CD4254D0072828E /* nint_prog_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3222377C1CD4254D0072828E /* nint_prog_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3222376E1CD4254D0072828E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3222374D1CD4254D0072828E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322237541CD4254D0072828E;
+			remoteInfo = nint_prog_1;
+		};
+		322237791CD4254D0072828E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3222374D1CD4254D0072828E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322237541CD4254D0072828E;
+			remoteInfo = nint_prog_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		322237551CD4254D0072828E /* nint_prog_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nint_prog_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322237581CD4254D0072828E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3222375A1CD4254D0072828E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3222375C1CD4254D0072828E /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		3222375E1CD4254D0072828E /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		322237611CD4254D0072828E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322237631CD4254D0072828E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		322237661CD4254D0072828E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		322237681CD4254D0072828E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3222376D1CD4254D0072828E /* nint_prog_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nint_prog_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322237711CD4254D0072828E /* nint_prog_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nint_prog_1Tests.swift; sourceTree = "<group>"; };
+		322237731CD4254D0072828E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322237781CD4254D0072828E /* nint_prog_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nint_prog_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3222377C1CD4254D0072828E /* nint_prog_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nint_prog_1UITests.swift; sourceTree = "<group>"; };
+		3222377E1CD4254D0072828E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322237521CD4254D0072828E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3222376A1CD4254D0072828E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322237751CD4254D0072828E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3222374C1CD4254D0072828E = {
+			isa = PBXGroup;
+			children = (
+				322237571CD4254D0072828E /* nint_prog_1 */,
+				322237701CD4254D0072828E /* nint_prog_1Tests */,
+				3222377B1CD4254D0072828E /* nint_prog_1UITests */,
+				322237561CD4254D0072828E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		322237561CD4254D0072828E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322237551CD4254D0072828E /* nint_prog_1.app */,
+				3222376D1CD4254D0072828E /* nint_prog_1Tests.xctest */,
+				322237781CD4254D0072828E /* nint_prog_1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322237571CD4254D0072828E /* nint_prog_1 */ = {
+			isa = PBXGroup;
+			children = (
+				322237581CD4254D0072828E /* AppDelegate.swift */,
+				3222375A1CD4254D0072828E /* RootViewController.swift */,
+				3222375C1CD4254D0072828E /* DataViewController.swift */,
+				3222375E1CD4254D0072828E /* ModelController.swift */,
+				322237601CD4254D0072828E /* Main.storyboard */,
+				322237631CD4254D0072828E /* Assets.xcassets */,
+				322237651CD4254D0072828E /* LaunchScreen.storyboard */,
+				322237681CD4254D0072828E /* Info.plist */,
+			);
+			path = nint_prog_1;
+			sourceTree = "<group>";
+		};
+		322237701CD4254D0072828E /* nint_prog_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				322237711CD4254D0072828E /* nint_prog_1Tests.swift */,
+				322237731CD4254D0072828E /* Info.plist */,
+			);
+			path = nint_prog_1Tests;
+			sourceTree = "<group>";
+		};
+		3222377B1CD4254D0072828E /* nint_prog_1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3222377C1CD4254D0072828E /* nint_prog_1UITests.swift */,
+				3222377E1CD4254D0072828E /* Info.plist */,
+			);
+			path = nint_prog_1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322237541CD4254D0072828E /* nint_prog_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322237811CD4254D0072828E /* Build configuration list for PBXNativeTarget "nint_prog_1" */;
+			buildPhases = (
+				322237511CD4254D0072828E /* Sources */,
+				322237521CD4254D0072828E /* Frameworks */,
+				322237531CD4254D0072828E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nint_prog_1;
+			productName = nint_prog_1;
+			productReference = 322237551CD4254D0072828E /* nint_prog_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3222376C1CD4254D0072828E /* nint_prog_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322237841CD4254D0072828E /* Build configuration list for PBXNativeTarget "nint_prog_1Tests" */;
+			buildPhases = (
+				322237691CD4254D0072828E /* Sources */,
+				3222376A1CD4254D0072828E /* Frameworks */,
+				3222376B1CD4254D0072828E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3222376F1CD4254D0072828E /* PBXTargetDependency */,
+			);
+			name = nint_prog_1Tests;
+			productName = nint_prog_1Tests;
+			productReference = 3222376D1CD4254D0072828E /* nint_prog_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		322237771CD4254D0072828E /* nint_prog_1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322237871CD4254D0072828E /* Build configuration list for PBXNativeTarget "nint_prog_1UITests" */;
+			buildPhases = (
+				322237741CD4254D0072828E /* Sources */,
+				322237751CD4254D0072828E /* Frameworks */,
+				322237761CD4254D0072828E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3222377A1CD4254D0072828E /* PBXTargetDependency */,
+			);
+			name = nint_prog_1UITests;
+			productName = nint_prog_1UITests;
+			productReference = 322237781CD4254D0072828E /* nint_prog_1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3222374D1CD4254D0072828E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dennis;
+				TargetAttributes = {
+					322237541CD4254D0072828E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3222376C1CD4254D0072828E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 322237541CD4254D0072828E;
+					};
+					322237771CD4254D0072828E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 322237541CD4254D0072828E;
+					};
+				};
+			};
+			buildConfigurationList = 322237501CD4254D0072828E /* Build configuration list for PBXProject "nint_prog_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3222374C1CD4254D0072828E;
+			productRefGroup = 322237561CD4254D0072828E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322237541CD4254D0072828E /* nint_prog_1 */,
+				3222376C1CD4254D0072828E /* nint_prog_1Tests */,
+				322237771CD4254D0072828E /* nint_prog_1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322237531CD4254D0072828E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322237671CD4254D0072828E /* LaunchScreen.storyboard in Resources */,
+				322237641CD4254D0072828E /* Assets.xcassets in Resources */,
+				322237621CD4254D0072828E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3222376B1CD4254D0072828E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322237761CD4254D0072828E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322237511CD4254D0072828E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3222375B1CD4254D0072828E /* RootViewController.swift in Sources */,
+				3222375F1CD4254D0072828E /* ModelController.swift in Sources */,
+				3222375D1CD4254D0072828E /* DataViewController.swift in Sources */,
+				322237591CD4254D0072828E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322237691CD4254D0072828E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322237721CD4254D0072828E /* nint_prog_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322237741CD4254D0072828E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3222377D1CD4254D0072828E /* nint_prog_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3222376F1CD4254D0072828E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322237541CD4254D0072828E /* nint_prog_1 */;
+			targetProxy = 3222376E1CD4254D0072828E /* PBXContainerItemProxy */;
+		};
+		3222377A1CD4254D0072828E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322237541CD4254D0072828E /* nint_prog_1 */;
+			targetProxy = 322237791CD4254D0072828E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		322237601CD4254D0072828E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322237611CD4254D0072828E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		322237651CD4254D0072828E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322237661CD4254D0072828E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3222377F1CD4254D0072828E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		322237801CD4254D0072828E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		322237821CD4254D0072828E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nint_prog_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nbd.nint-prog-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		322237831CD4254D0072828E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nint_prog_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nbd.nint-prog-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		322237851CD4254D0072828E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nint_prog_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nbd.nint-prog-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nint_prog_1.app/nint_prog_1";
+			};
+			name = Debug;
+		};
+		322237861CD4254D0072828E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nint_prog_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nbd.nint-prog-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nint_prog_1.app/nint_prog_1";
+			};
+			name = Release;
+		};
+		322237881CD4254D0072828E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nint_prog_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nbd.nint-prog-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nint_prog_1;
+			};
+			name = Debug;
+		};
+		322237891CD4254D0072828E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nint_prog_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nbd.nint-prog-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nint_prog_1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322237501CD4254D0072828E /* Build configuration list for PBXProject "nint_prog_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3222377F1CD4254D0072828E /* Debug */,
+				322237801CD4254D0072828E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322237811CD4254D0072828E /* Build configuration list for PBXNativeTarget "nint_prog_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322237821CD4254D0072828E /* Debug */,
+				322237831CD4254D0072828E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		322237841CD4254D0072828E /* Build configuration list for PBXNativeTarget "nint_prog_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322237851CD4254D0072828E /* Debug */,
+				322237861CD4254D0072828E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		322237871CD4254D0072828E /* Build configuration list for PBXNativeTarget "nint_prog_1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322237881CD4254D0072828E /* Debug */,
+				322237891CD4254D0072828E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3222374D1CD4254D0072828E /* Project object */;
+}
